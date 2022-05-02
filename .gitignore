@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,firebase,visualstudiocode,swiftpackagemanager,objective-c
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode,swift,firebase,visualstudiocode,swiftpackagemanager,objective-c
+# Created by https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,firebase,objective-c,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode,swift,firebase,objective-c,visualstudiocode
 
 ### Firebase ###
 .idea
@@ -163,12 +163,6 @@ Dependencies/
 # https://github.com/johnno1962/injectionforxcode
 
 
-### SwiftPackageManager ###
-Packages
-xcuserdata
-*.xcodeproj
-
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -206,4 +200,4 @@ xcuserdata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,firebase,visualstudiocode,swiftpackagemanager,objective-c
+# End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,firebase,objective-c,visualstudiocode
