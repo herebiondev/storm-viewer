@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE89880B28215F4900EAAD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89880A28215F4900EAAD80 /* AppDelegate.swift */; };
 		EEF364A62820178100166ACC /* Storm_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF364A52820178100166ACC /* Storm_ViewerApp.swift */; };
 		EEF364A82820178100166ACC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF364A72820178100166ACC /* ContentView.swift */; };
 		EEF364AA2820178200166ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF364A92820178200166ACC /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE89880A28215F4900EAAD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF364A22820178100166ACC /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF364A52820178100166ACC /* Storm_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm_ViewerApp.swift; sourceTree = "<group>"; };
 		EEF364A72820178100166ACC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				EEF364A52820178100166ACC /* Storm_ViewerApp.swift */,
+				EE89880A28215F4900EAAD80 /* AppDelegate.swift */,
 				EEF364A72820178100166ACC /* ContentView.swift */,
 				EEF364A92820178200166ACC /* Assets.xcassets */,
 				EEF364AE2820178200166ACC /* Storm_Viewer.entitlements */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE89880B28215F4900EAAD80 /* AppDelegate.swift in Sources */,
 				EEF364A82820178100166ACC /* ContentView.swift in Sources */,
 				EEF364A62820178100166ACC /* Storm_ViewerApp.swift in Sources */,
 			);
