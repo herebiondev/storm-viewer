@@ -14,4 +14,13 @@
 //  easy to do in AppKit, but currently impossible in pure SwiftUI, so we need to
 //  write some code to handle it.
 
-import Foundation
+import AppKit
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    // Now we need to add exactly one method to this class, and it has a very precise
+    // name because macOS will automatically look for this method and call it as needed.
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        true
+    }
+}
